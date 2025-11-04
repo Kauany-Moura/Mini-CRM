@@ -52,5 +52,6 @@ Abstração      | Representação simplificada de entidades do mundo real
 ### Tela Inicial
 <img src="Tela Inicial.png" alt="Tela Inicial" width="1000">
 <br>
+
 ### Tela de Cadastro
 <img src="Tela de Cadastro.png" alt="Tela de Cadastro" width="1000">
