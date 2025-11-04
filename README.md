@@ -31,6 +31,19 @@ Conceito       | Implementação
 ---------------|---------------------------------------------------------------------------
 Classe Base    | Pessoa
 Herança	       | Cliente(Pessoa) e Funcionario(Pessoa)
-Polimorfismo   | Método exibir_informacoes() com comportamento diferente em cada subclasse
+Polimorfismo   | Método exibir_informacoes( ) com comportamento diferente em cada subclasse
 Encapsulamento | Atributos acessados apenas por meio de métodos das classes
 Abstração      | Representação simplificada de entidades do mundo real
+
+---
+
+## 🎨 Tecnologias Utilizadas
+
+- Python 3.10+
+- Flask
+- HTML5 + Bootstrap 5
+- Orientação a Objetos (POO)
+
+---
+
+## 🖼️ Capturas de Tela (opcional)
