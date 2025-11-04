@@ -30,9 +30,9 @@ O projeto conta com uma **interface web simples** para cadastrar, visualizar e g
 
 Conceito       | Implementação
 ---------------|---------------------------------------------------------------------------
-Classe Base    | Pessoa
-Herança	       | Cliente(Pessoa) e Funcionario(Pessoa)
-Polimorfismo   | Método exibir_informacoes( ) com comportamento diferente em cada subclasse
+Classe Base    | `Pessoa`
+Herança	       | `Cliente(Pessoa)` e `Funcionario(Pessoa)`
+Polimorfismo   | Método `exibir_informacoes( )` com comportamento diferente em cada subclasse
 Encapsulamento | Atributos acessados apenas por meio de métodos das classes
 Abstração      | Representação simplificada de entidades do mundo real
 
@@ -54,3 +54,16 @@ Abstração      | Representação simplificada de entidades do mundo real
 
 ### Tela de Cadastro
 <img src="Tela de Cadastro.png" alt="Tela de Cadastro" width="1000">
+
+---
+
+## ⚙️ Como Rodar o Projeto
+
+1. Clone este repositório para sua máquina local:
+   `git clone https://github.com/Kauany-Moura/BlackJack.git`
+2. Abra o terminal e instale:
+   `pip install flask`
+3. Rode o Flask diretamente com Python:
+   `python -m flask run`
+4. Abra seu navegador e acesse:
+   `http://127.0.0.1:5000`
