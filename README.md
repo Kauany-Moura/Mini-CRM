@@ -60,7 +60,7 @@ Abstração      | Representação simplificada de entidades do mundo real
 ## ⚙️ Como Rodar o Projeto
 
 1. Clone este repositório para sua máquina local:
-   `git clone https://github.com/Kauany-Moura/BlackJack.git`
+   `https://github.com/Kauany-Moura/Mini-CRM.git`
 2. Abra o terminal e instale:
    `pip install flask`
 3. Rode o Flask diretamente com Python:
