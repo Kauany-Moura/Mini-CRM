@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2 class="mb-4">Lista de Cadastros</h2>
+
+{% if cadastros %}
+    <ul class="list-group">
+        {% for pessoa in cadastros %}
+        <li class="list-group-item">{{ pessoa.exibir_informacoes() }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p class="text-muted">Nenhum cadastro encontrado.</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2 class="mb-4">Adicionar Novo Cadastro</h2>
+
+<form method="POST">
+    <div class="mb-3">
+        <label class="form-label">Tipo:</label>
+        <select name="tipo" id="tipo" class="form-select" onchange="toggleCampos()">
+            <option value="cliente">Cliente</option>
+            <option value="funcionario">Funcionário</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Nome:</label>
+        <input type="text" name="nome" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email:</label>
+        <input type="email" name="email" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Telefone:</label>
+        <input type="text" name="telefone" class="form-control" required>
+    </div>
+
+    <div id="clienteCampos">
+        <div class="mb-3">
+            <label class="form-label">Empresa:</label>
+            <input type="text" name="empresa" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Status:</label>
+            <select name="status" class="form-select">
+                <option value="Ativo">Ativo</option>
+                <option value="Inativo">Inativo</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="funcionarioCampos" style="display: none;">
+        <div class="mb-3">
+            <label class="form-label">Cargo:</label>
+            <input type="text" name="cargo" class="form-control">
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-success">Salvar</button>
+</form>
+
+<script>
+function toggleCampos() {
+    const tipo = document.getElementById('tipo').value;
+    document.getElementById('clienteCampos').style.display = tipo === 'cliente' ? 'block' : 'none';
+    document.getElementById('funcionarioCampos').style.display = tipo === 'funcionario' ? 'block' : 'none';
+}
+</script>
+{% endblock %}
