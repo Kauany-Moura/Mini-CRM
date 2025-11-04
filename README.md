@@ -27,6 +27,7 @@ O projeto conta com uma **interface web simples** para cadastrar, visualizar e g
 ---
 
 ## 🧠 Conceitos de POO Utilizados
+
 Conceito       | Implementação
 ---------------|---------------------------------------------------------------------------
 Classe Base    | Pessoa
@@ -46,4 +47,7 @@ Abstração      | Representação simplificada de entidades do mundo real
 
 ---
 
-## 🖼️ Capturas de Tela (opcional)
+## 🖼️ Capturas de Tela
+
+### Tela Inicial
+<img src="Tela Inicial.png" alt="Tela Inicial" width="1000">
