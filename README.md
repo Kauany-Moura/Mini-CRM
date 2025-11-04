@@ -27,10 +27,9 @@ O projeto conta com uma **interface web simples** para cadastrar, visualizar e g
 ---
 
 ## 🧠 Conceitos de POO Utilizados
-Conceito | Implementação
-
-Classe         | Base	Pessoa
+Conceito       | Implementação
 ---------------|---------------------------------------------------------------------------
+Classe Base    | Pessoa
 Herança	       | Cliente(Pessoa) e Funcionario(Pessoa)
 Polimorfismo   | Método exibir_informacoes() com comportamento diferente em cada subclasse
 Encapsulamento | Atributos acessados apenas por meio de métodos das classes
